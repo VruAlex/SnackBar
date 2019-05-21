@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/layout"
+    tools:showIn="@layout/activity_main">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:text="DEFAULT SNACKBAR"
+        android:background="#00BCD4"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:text="ACTION TO CALL SNACKBAR"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_below="@id/button1"
+        android:layout_margin="10dp"
+        android:background="#FF5722"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:text="CUSTOM VIEW SNACKBAR"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_below="@id/button2"
+        android:layout_margin="10dp"
+        android:background="#763AB7"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/floating"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_favorite_border_black_24dp"/>
+
+
+
+
+
+
+</RelativeLayout>
